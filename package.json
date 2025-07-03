@@ -1,0 +1,15 @@
+{
+  "name": "crud-mvc-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "migrate": "node migrationRunner.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.4",
+    "pg": "^8.11.3"
+  }
+}
