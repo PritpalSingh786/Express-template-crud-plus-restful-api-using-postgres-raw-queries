@@ -4,7 +4,7 @@ const userController = {
   showAllUsers: (req, res) => {
     userModel.getAllUsers((err, users) => {
       if (err) throw err;
-      res.render("index.njk", { users: users.rows });
+      res.render("index.njk", { users });
     });
   },
 
